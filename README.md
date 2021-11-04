@@ -18,6 +18,12 @@ Ctrl+Z
 [git-scm.com](https://git-scm.com/)
 ### Visual Studio:
 [code.visualstudio.com](https://code.visualstudio.com/)
+# 2.1)Технологии:
+### БЭМ методология:
+[bem.info](https://ru.bem.info/methodology/)
+# 2.2)Ресурсы:
+### Шрифты:
+[fonts.google](https://fonts.google.com/)
 
 
 # 3)Работа с git 
