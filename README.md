@@ -37,3 +37,7 @@ git commit -m "..."
 ```bash
 git push
 ```
+### Принятие в облако
+```bash
+git pull
+```
