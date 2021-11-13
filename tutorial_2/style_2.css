@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    
+}
+
+.krug {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    height: 200px;
+    width: 200px;
+    border: 15px solid red;
+    border-radius: 49%;
+    animation: krug 2s infinite forwards;
+
+}
+
+@keyframes krug {
+    0% {
+        border-color: red;
+        transform: scale(1);
+    }
+    25% {
+        border-color: rgb(231, 219, 151);
+        transform: scale(2);
+    }
+    50% {
+        border-color:rgb(255, 238, 0);
+        transform: scale(3);
+    }
+    75% {
+        border-color: lightcoral;
+        transform: scale(2);
+    }
+    100% {
+        border-color: red;
+        transform: scale(1);
+    }
+}
+.kvadrat {
+    height: 75px;
+    width: 75px;
+    border: 5px dashed red;
+    animation: kvadrat 2s infinite ease-in-out alternate-reverse;
+}
+
+@keyframes kvadrat {
+ 0% {
+     border-color: red;
+     transform: rotate(0deg);
+     border-width: 5px;
+ }
+ 25% {
+     border-color: rgb(231, 219, 151);
+     transform: rotate(90deg);
+     border-width: 10px;
+ }
+ 50% {
+    border-color: rgb(255, 238, 0);
+    transform: rotate(180deg);
+    border-width: 15px;
+ }
+ 75% {
+    border-color: lightcoral;
+    transform: rotate(270deg);
+    border-width: 20px;
+ }
+ 100% {
+    border-color: red;
+    transform: rotate(360deg);
+    border-width: 25px;
+ }
+
+
+    
+}
