@@ -41,13 +41,13 @@ body {
     position: relative;
     height: 200px;
     width: 200px;
-    background: aquamarine;
-    box-shadow: 0 0 5px rgba(3, 233, 244, 1),
-    0 0 25px rgba(3, 233, 244, 1),
-    0 0 50px rgba(3, 233, 244, 1),
-    0 0 100px rgba(3, 233, 244, 0.75),
-    0 0 200px rgba(3, 233, 244, 0.5),
-    0 0 300px rgba(3, 233, 244, 0.25);
+    background: rgb(255, 127, 227);
+    box-shadow: 0 0 5px rgb(255, 123, 195),
+    0 0 25px rgb(255, 123, 233),
+    0 0 50px rgb(233, 133, 253),
+    0 0 100px rgba(247, 127, 253, 0.75),
+    0 0 200px rgba(248, 122, 252, 0.5),
+    0 0 300px rgba(208, 122, 242, 0.25);
     animation: animate 1.5s ease-in-out infinite;
     transform-origin:  bottom right   ;
 }
