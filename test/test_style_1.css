@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+
+
+    
+}
+
+.CUBE {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+
+}
+.cube {
+    position: relative;
+    height: 200px;
+    width: 500px;
+}   
